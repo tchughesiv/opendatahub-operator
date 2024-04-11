@@ -20,6 +20,8 @@ declare -A COMPONENT_MANIFESTS=(
     ["kserve"]="opendatahub-io:kserve:release-v0.12.1:config:kserve"
     ["modelregistry"]="opendatahub-io:model-registry-operator:main:config:model-registry-operator"
     ["trainingoperator"]="opendatahub-io:training-operator:dev:manifests:trainingoperator"
+    ["feastoperator"]="feast-dev:feast:v0.40-branch:infra/feast-operator/config:feastoperator"
+    #["feastoperator"]="feast-dev:feast:v0.40.0:infra/feast-operator/config:feastoperator"
 )
 
 # Allow overwriting repo using flags component=repo

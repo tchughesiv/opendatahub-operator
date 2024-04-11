@@ -1,0 +1,8 @@
+apiVersion: datasciencecluster.opendatahub.io/v1
+kind: DataScienceCluster
+metadata:
+  name: dev-dsc
+spec:
+  components:
+    feastoperator:
+      managementState: Managed

@@ -136,6 +136,8 @@ func (c *Component) UpdatePrometheusConfig(_ client.Client, logger logr.Logger, 
 			TrainingOperatorARules string `yaml:"trainingoperator-alerting.rules"`
 			ModelRegistryRRules    string `yaml:"model-registry-operator-recording.rules"`
 			ModelRegistryARules    string `yaml:"model-registry-operator-alerting.rules"`
+			FeastOperatorRRules    string `yaml:"feastoperator-recording.rules"`
+			FeastOperatorARules    string `yaml:"feastoperator-alerting.rules"`
 		} `yaml:"data"`
 	}
 	var configMap ConfigMap

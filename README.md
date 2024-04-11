@@ -314,6 +314,8 @@ spec:
       managementState: Managed
     datasciencepipelines:
       managementState: Managed
+    feastoperator:
+      managementState: Managed
     kserve:
       managementState: Managed
       serving:
